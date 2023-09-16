@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Work+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2B2B2B;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    height: 50px;
+}
+
+.navbar .left h3{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.navbar .left h3 i{
+    color: #A259FF;
+}
+
+
+.navbar .right a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    padding: 0 20px;
+}
+
+.navbar .right a.auth {
+    background-color: #A259FF;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+.container {
+    max-width: 1300px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.col-2 img{
+    width: 100%;
+    height: calc(100vh - 55px);
+}
+
+.text-section {
+    padding:  0 30px 0 40px;
+}
+
+.text-section h1 {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 45px;
+    padding: 5px;
+}
+
+.text-section p {
+    padding: 10px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #888888;
+}
+
+.text-section button{
+    width: 250px;
+    height: 60px;
+    padding: 20px 0 40px 0;
+    background-color: #3b3b3b;
+    border: 1px solid #A259FF;
+    border-radius: 20px;
+    color: white;
+}
+
+.text-section button img{
+    width: 32px;
+    height: 32px;
+}
