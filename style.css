@@ -10,7 +10,6 @@ body{
     background-color: #2B2B2B;
     color: #fff;
     font-family: 'Work Sans', sans-serif;
-    width: 100vw;
 }
 
 .navbar{
@@ -42,10 +41,6 @@ body{
     background-color: #A259FF;
     padding: 10px 30px;
     border-radius: 20px;
-}
-
-.container {
-    max-width: 1300px;
 }
 
 .row {
@@ -176,3 +171,40 @@ input {
     display: inline-block;
     box-sizing: border-box;
 }
+
+
+#bars{
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .footer {
+        padding: 40px;
+    }
+    .footer .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 20px;
+    }
+    
+    #bars{
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .col-2 {
+        flex-basis: 100%;
+    }
+
+    .row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
